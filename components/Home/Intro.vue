@@ -16,7 +16,7 @@
     <p class="text-gray-900 dark:text-gray-300">
       I'm Mehedi Hasan, a researcher and engineer with interests in NLP, AI for Security, and Trustworthy Machine
       Learning. I hold a Bachelor's degree in Computer Science and Engineering from <a href="https://bracu.ac.bd/" class="underline hover:text-lightaccent dark:hover:text-darkaccent">BRAC University</a> and currently work
-      as a Backend Engineer at <a href="https://turnus.ai/en/" class="underline hover:text-lightaccent dark:hover:text-darkaccent">turnus.ai.</a> My work focuses on applying AI to solve real-world
+      as a Backend Engineer at <a href="https://turnus.ai/en/" class="underline hover:text-lightaccent dark:hover:text-darkaccent">turnus.ai</a>. My work focuses on applying AI to solve real-world
       problems in scalable and impactful ways.
     </p>
   </div>

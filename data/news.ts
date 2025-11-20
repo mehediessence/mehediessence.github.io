@@ -1,5 +1,11 @@
 export default [
   {
+    "title": "turnus.ai Journey",
+    "slug": "turnusai-journey",
+    "published": "2025-11-15",
+    "description": `Started playing with AI at <a href="https://turnus.ai/en/" class="underline hover:text-lightaccent dark:hover:text-darkaccent">turnus.ai</a> as a Backend Engineer (Independent Contractor)`
+  },
+  {
     "title": "AI for Cybersecurity Completed",
     "slug": "AI-for-Cybersecurity-completed",
     "published": "2024-12-04",
