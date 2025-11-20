@@ -31,7 +31,7 @@ const links = [
   },
   {
     name: "Linkedin",
-    url: "https://www.linkedin.com/in/themehedicloud",
+    url: "https://www.linkedin.com/in/TheMehediCloud",
     icon: "mdi:linkedin",
   },
   {
