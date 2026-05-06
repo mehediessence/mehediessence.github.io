@@ -1,9 +1,15 @@
 export default [
   {
+    "title": "CTD Journey",
+    "slug": "ctd-journey",
+    "published": "2026-01-01",
+    "description": `Started my journey at <a href="https://codethedream.org/" class="underline hover:text-lightaccent dark:hover:text-darkaccent">Code the Dream</a> (CTD) as a Volunteer Instructor, teaching DSA`
+  },
+  {
     "title": "turnus.ai Journey",
     "slug": "turnusai-journey",
     "published": "2025-11-15",
-    "description": `Started playing with AI at <a href="https://turnus.ai/en/" class="underline hover:text-lightaccent dark:hover:text-darkaccent">turnus.ai</a> as a Backend Engineer (Independent Contractor)`
+    "description": `Joined <a href="https://turnus.ai/en/" class="underline hover:text-lightaccent dark:hover:text-darkaccent">turnus.ai</a> (Germany) as a Backend Engineer, working on AI-driven compliance and sustainability automation`
   },
   {
     "title": "AI for Cybersecurity Completed",

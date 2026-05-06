@@ -14,10 +14,12 @@
       Researcher in theory. Engineer in practice. Builder at heart.
     </h1>
     <p class="text-gray-900 dark:text-gray-300">
-      I'm Mehedi Hasan, a researcher and engineer with interests in AI for Security, Trustworthy ML,
-      and NLP. I hold a Bachelor's degree in Computer Science and Engineering from <a href="https://bracu.ac.bd/" class="underline hover:text-lightaccent dark:hover:text-darkaccent">BRAC University</a> and currently work
-      as a Backend Engineer at <a href="https://turnus.ai/en/" class="underline hover:text-lightaccent dark:hover:text-darkaccent">turnus.ai</a>. My work focuses on applying AI to solve real-world
-      problems in scalable and impactful ways.
+      I'm Mehedi Hasan, a researcher and engineer working at the intersection of AI security, trustworthy ML, and NLP.
+      I hold a Bachelor's degree in Computer Science and Engineering from <a href="https://bracu.ac.bd/" class="underline hover:text-lightaccent dark:hover:text-darkaccent">BRAC University</a> with Highest Distinction.
+      My work focuses on applying AI to solve real-world problems in scalable and impactful ways.
+      I spent three years building national-scale health and clinical software systems as a Full-Stack Software Engineer.
+      My current role (Backend Engineer at <a href="https://turnus.ai/en/" class="underline hover:text-lightaccent dark:hover:text-darkaccent">turnus.ai</a>, Germany) involves working on AI-driven document automation for EU compliance and sustainability workflows.
+      I'm also a Volunteer Instructor at <a href="https://codethedream.org/" class="underline hover:text-lightaccent dark:hover:text-darkaccent">Code the Dream</a>, where I teach DSA. 
     </p>
   </div>
 </template>
@@ -26,6 +28,6 @@
 useSeoMeta({
   title: "TheMehediCloud",
   description:
-    "I'm Mehedi Hasan, a researcher and engineer with interests in AI for Security, Trustworthy ML, and NLP. I hold a Bachelor's degree in Computer Science and Engineering from Brac University and currently work as a Backend Engineer at turnus.ai. My work focuses on applying AI to solve real-world problems in scalable and impactful ways.",
+    "I'm Mehedi Hasan, a researcher and engineer working at the intersection of AI security, trustworthy ML, and NLP. I hold a Bachelor's degree in Computer Science and Engineering from Brac University with Highest Distinction. Currently as a Backend Engineer at turnus.ai, I work on AI-driven document automation for EU compliance and sustainability workflows. My work focuses on applying AI to solve real-world problems in scalable and impactful ways.",
 });
 </script>
