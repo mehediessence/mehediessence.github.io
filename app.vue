@@ -31,6 +31,16 @@ useHead({
 </script>
 
 <style>
+/* Text selection uses the theme accent: red in light mode, green in dark mode */
+::selection {
+  background-color: #cb2a42;
+  color: #ffffff;
+}
+.dark ::selection {
+  background-color: #2abc89;
+  color: #1d1f20;
+}
+
 .page-enter-active,
 .page-leave-active {
   transition: all 0.2s;
