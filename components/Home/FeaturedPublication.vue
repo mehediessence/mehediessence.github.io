@@ -1,8 +1,6 @@
 <template>
   <div>
-    <h2 class="uppercase text-xs font-semibold text-gray-400 mb-6">
-      Featured Publications
-    </h2>
+    <h2 class="mb-6"><AppPrompt cmd="ls publications/" /></h2>
     <ul class="space-y-8">
       <li v-for="(pub, id) in featuredPublications" :key="id">
         <AppPublicationCard :publication="pub" />

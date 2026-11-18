@@ -6,15 +6,10 @@ export default [
     year: 2026
   },
   {
-    title: "Unsecret: an open-source C++20 scanner for leaked credentials in source code",
-    authors: "Mehedi Hasan",
-    event: "Manuscript under review",
-    year: 2026
-  },
-  {
     title: "BanglaBait: Semi-Supervised Adversarial Approach for Clickbait Detection on Bangla Clickbait Dataset",
     authors: "Md. Motahar Mahtab, Monirul Haque, Mehedi Hasan, and Farig Sadeque",
     event: "Recent Advances in Natural Language Processing 2023 | RANLP'23",
+    url: "https://aclanthology.org/2023.ranlp-1.81/",
     year: 2023
   }
 ]

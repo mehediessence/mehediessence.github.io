@@ -6,10 +6,16 @@ export default [
     "description": "Completed: Ethical Hacker | Cisco Networking Academy"
   },
   {
-    "title": "Unsecret Submitted",
-    "slug": "unsecret-submitted",
+    "title": "WalkApart Submitted",
+    "slug": "walkapart-submitted",
     "published": "2026-11",
-    "description": "Submitted the paper on <b>Unsecret</b>, my open-source C++20 scanner for leaked credentials in source code, for peer review. The repo goes public in Dec 2026"
+    "description": "Submitted <b>WalkApart: How DMARC Receivers Diverge in the RFC 9989 Transition</b> for peer review, with Tasmim Afroj Lamia. The code goes public in Dec 2026"
+  },
+  {
+    "title": "Unsecret Released",
+    "slug": "unsecret-released",
+    "published": "2026-10",
+    "description": `Released <a href="https://github.com/TheBrainfucker/unsecret" class="underline hover:text-lightaccent dark:hover:text-darkaccent">Unsecret</a>, an open-source C++20 scanner that finds leaked credentials in source code`
   },
   {
     "title": "Cybersecurity Advanced Completed",

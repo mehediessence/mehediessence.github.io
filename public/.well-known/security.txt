@@ -1,4 +1,4 @@
 Contact: mailto:mehedi.hasan@g.bracu.ac.bd
 Expires: 2027-11-18T00:00:00.000Z
-Preferred-Languages: en, bn
+Preferred-Languages: en
 Canonical: https://mehediessence.github.io/.well-known/security.txt

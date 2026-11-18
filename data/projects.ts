@@ -2,7 +2,7 @@ export default [
   {
     title: "WalkApart: How DMARC Receivers Diverge in the RFC 9989 Transition",
     year: 2026,
-    status: "Manuscript under review",
+    status: "Manuscript under review · code going public Dec 2026",
     description:
       "A differential-testing harness that runs 7 DMARC libraries on identical inputs, scaling from RFC 9989 (DMARCbis) test cases to real-world domains.",
     highlights: [
@@ -16,9 +16,10 @@ export default [
   {
     title: "Unsecret: an open-source C++20 scanner for leaked credentials",
     year: 2026,
-    status: "Paper under review · repo going public Dec 2026",
+    status: "Open source · Oct 2026",
+    url: "https://github.com/TheBrainfucker/unsecret",
     description:
-      "A secret scanner for source code, built around a from-scratch Aho-Corasick keyword prefilter.",
+      "Finds secrets that are no longer secret, before attackers do. A small CLI that scans source code for API keys, tokens, private keys and hard-coded passwords, never prints a full secret, and can block a commit or fail a CI job through its exit code.",
     highlights: [
       "13.6x faster scans on the CredData benchmark, identical findings",
       "64.8% recall at 82.6% precision on a held-out CredData split (167 repos)",

@@ -4,7 +4,8 @@
       <p
         class="font-semibold text-gray-700 dark:text-gray-300"
       >
-        {{ item.title }}
+        <a v-if="item.url" :href="item.url" target="_blank" class="underline hover:text-lightaccent dark:hover:text-darkaccent">{{ item.title }}</a>
+        <template v-else>{{ item.title }}</template>
       </p>
       <p class="text-sm text-gray-500">{{ item.authors }}</p>
       <p

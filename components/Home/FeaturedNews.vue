@@ -1,8 +1,6 @@
 <template>
   <div>
-    <h2 class="uppercase text-xs font-semibold text-gray-400 mb-6">
-      News and Highlights
-    </h2>
+    <h2 class="mb-6"><AppPrompt cmd="tail -n 3 news.log" /></h2>
     <ul class="space-y-8">
       <li v-for="(news, id) in newsItems" :key="id">
         <AppNewsCard :news="news" />
