@@ -2,7 +2,7 @@
   <article>
     <time
       class="relative z-10 order-first mb-2 flex items-center text-sm text-gray-500 pl-3.5"
-      datetime="2022-09-05"
+      :datetime="news.published"
       ><span
         class="absolute inset-y-0 left-0 flex items-center"
         aria-hidden="true"
@@ -26,11 +26,13 @@ defineProps({
 });
 
 const getReadableDate = (dateString) => {
-  const date = new Date(dateString);
-  return date.toLocaleDateString("en-US", {
+  // "YYYY-MM" means the exact day is unknown, so show only month and year
+  const monthOnly = /^\d{4}-\d{2}$/.test(dateString);
+  return new Date(dateString).toLocaleDateString("en-US", {
     year: "numeric",
     month: "short",
-    day: "numeric",
+    ...(monthOnly ? {} : { day: "numeric" }),
+    timeZone: "UTC",
   });
 };
 </script>

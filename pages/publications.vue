@@ -27,7 +27,7 @@ const grouped = computed(() => {
 
 const description = "List of my publications over the years."
 useSeoMeta({
-  title: "Publications | TheMehediCloud",
+  title: "Publications | mehediessence",
   description,
 });
 </script>

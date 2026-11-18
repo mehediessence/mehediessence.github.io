@@ -1,22 +1,25 @@
-# Github academic website
+# mehediessence.github.io
 
-Personal portfolio template for researchers, developers, and programmers.
+Personal website of Mehedi Hasan, a software engineer working on software and systems security.
 
-## Tech Stack
+Live at **https://mehediessence.github.io**
 
-1. Nuxt JS
-2. Tailwind CSS
-3. Vue
-4. Nuxt Content Module
-5. Shiki JS ES
+## Content
 
-## Installation
+- `data/news.ts`: news and highlights. Use `YYYY-MM-DD`, or `YYYY-MM` when the exact day is unknown
+- `data/projects.ts`: research and side projects
+- `data/publications.ts`: papers
+- `components/Home/Now.vue`: the `now.txt` block on the home page
+- `public/.well-known/security.txt`: security contact ([RFC 9116](https://www.rfc-editor.org/rfc/rfc9116)). Renew `Expires` yearly
 
-1. `git clone` this repo or click on `Use this template` button.
-2. `cd` into the project directory.
-3. Run `yarn install` to install the dependencies.
-4. Run `yarn dev` to start the development server.
+## Tech stack
 
-## Contributing
+Nuxt 3, Vue, Tailwind CSS, Nuxt UI and Nuxt Content, deployed to GitHub Pages via GitHub Actions on every push to `main`.
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+## Development
+
+```bash
+yarn install
+yarn dev        # http://localhost:3000
+yarn generate   # static build
+```

@@ -1,9 +1,15 @@
 export default [
   {
-    title: "A Comprehensive Survey of Sarcasm Detection: Unveiling Features, Approaches and Challenges",
-    authors: "",
-    event: "Personal Research Project",
-    year: 2025
+    title: "WalkApart: How DMARC Receivers Diverge in the RFC 9989 Transition",
+    authors: "Mehedi Hasan and Tasmim Afroj Lamia",
+    event: "Manuscript under review",
+    year: 2026
+  },
+  {
+    title: "Unsecret: an open-source C++20 scanner for leaked credentials in source code",
+    authors: "Mehedi Hasan",
+    event: "Manuscript under review",
+    year: 2026
   },
   {
     title: "BanglaBait: Semi-Supervised Adversarial Approach for Clickbait Detection on Bangla Clickbait Dataset",

@@ -49,6 +49,11 @@ const items = [
     icon: "streamline-plump:announcement-megaphone",
   },
   {
+    name: "Projects",
+    path: "/projects",
+    icon: "lucide:flask-conical",
+  },
+  {
     name: "Publications",
     path: "/publications",
     icon: "carbon:catalog-publish",

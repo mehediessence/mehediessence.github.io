@@ -12,12 +12,14 @@
 <script setup>
 import newsData from '@/data/news';
 
-const newsItems = ref(newsData);
+const newsItems = computed(() =>
+  [...newsData].sort((a, b) => new Date(b.published).getTime() - new Date(a.published).getTime())
+);
 
 const description =
   "All of my recent news and highlights.";
 useSeoMeta({
-  title: "News | TheMehediCloud",
+  title: "News | mehediessence",
   description,
 });
 

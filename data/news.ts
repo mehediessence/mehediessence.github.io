@@ -1,5 +1,23 @@
 export default [
   {
+    "title": "Ethical Hacker Completed",
+    "slug": "ethical-hacker-completed",
+    "published": "2026-11-06",
+    "description": "Completed: Ethical Hacker | Cisco Networking Academy"
+  },
+  {
+    "title": "Unsecret Submitted",
+    "slug": "unsecret-submitted",
+    "published": "2026-11",
+    "description": "Submitted the paper on <b>Unsecret</b>, my open-source C++20 scanner for leaked credentials in source code, for peer review. The repo goes public in Dec 2026"
+  },
+  {
+    "title": "Cybersecurity Advanced Completed",
+    "slug": "cybersecurity-advanced-completed",
+    "published": "2026-02-04",
+    "description": "Completed: Cybersecurity Advanced | SPECTRO, EIT Digital"
+  },
+  {
     "title": "CTD Journey",
     "slug": "ctd-journey",
     "published": "2026-01-01",
