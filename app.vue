@@ -15,6 +15,19 @@ const colorMode = useColorMode();
 const loadingColor = computed(() =>
   colorMode.value === 'dark' ? '#2abc89' : '#cb2a42'
 );
+
+// favicon.svg follows the OS theme on its own; when the visitor picks a theme
+// with the toggle, switch to the matching fixed variant.
+useHead({
+  link: [{
+    rel: 'icon',
+    type: 'image/svg+xml',
+    href: computed(() =>
+      colorMode.preference === 'system' ? '/favicon.svg' : `/favicon-${colorMode.value}.svg`
+    ),
+    key: 'favicon',
+  }],
+});
 </script>
 
 <style>
